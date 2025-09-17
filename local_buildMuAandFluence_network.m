@@ -21,13 +21,13 @@ muFat  = A.mufat(:).';
 % --- Composition parameters (simple, literature-guided) ---
 % background blood volume fraction (capillary bed surrogate)
 f_bv_bg   = 0.02;              % 2% blood vol. fraction in dermis
-sO2_bg    = 0.8;              %tissue oxigination%%%%%%%%%%%%%%
+sO2_bg    = 0.75;              %tissue oxigination%%%%%%%%%%%%%%
 
 % vessel blood volume fraction ~ whole blood
 f_bv_vess = 1.0;
 
 % bulk water/fat weightings (coarse)
-f_water = 0.8;  f_fat = 0.20;
+f_water = 0.8;  f_fat = 0.2;
 
 % epidermal melanin volume fraction (avascular epidermis)
 f_mel_epi = 0.02;  % 2% (adjustable pigment level)
